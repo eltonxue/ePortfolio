@@ -1,0 +1,388 @@
+#brand-img {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+}
+
+#brand-name {
+  font-family: "Play", sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+/******************************* Main Cover Section *******************************/
+
+#profile-pic {
+  border: 3px solid white;
+  border-radius: 100%;
+  opacity: 0;
+  height: 325px;
+  width: 325px;
+  background-image: url(images/profile.jpg);
+  background-size: cover;
+  background-position: 20% 0%;
+}
+
+#introduction {
+  text-align: center;
+  opacity: 0;
+  color: white;
+  font-size: 3.5em;
+  font-family: 'Play', sans-serif;
+  margin-bottom: 1%;
+}
+
+#slide-down-icon {
+  background-color: transparent;
+}
+
+#slide-down-icon:hover {
+  cursor: pointer;
+}
+
+.filler-row {
+  margin-top: 2%;
+  height: 80px;
+}
+
+.btn-web {
+  font-family: 'Play', sans-serif;
+  opacity: 0;
+  margin-bottom: 15%;
+  color: black;
+  font-size: 23px;
+  font-style: bolder;
+  background-color: rgba(247, 247, 249, .6);
+  width: auto;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+/******************************* Education *******************************/
+
+#education-and-skills {
+  border-top: 5px solid darkgrey;
+  background-color: whitesmoke;
+  padding: 3%;
+}
+
+.language {
+  margin: 5px;
+  line-height: 100px;
+  width: 105px;
+  text-align: center;
+  border-radius: 50%;
+  font-family: "Play", sans-serif;
+  font-weight: lighter;
+}
+
+.proficient {
+  border: 3px solid darkgrey;
+}
+
+.familiar {
+  border: 3px solid darkgrey;
+}
+
+.practiced {
+  border: 3px solid darkgrey;
+}
+
+/******************************* Skills *******************************/
+
+.skill {
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 5%;
+  padding: 10px;
+  font-weight: 500;
+  font-family: 'Play', sans-serif;
+}
+
+.skill-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 4px;
+}
+.java {
+  background-color: skyblue;
+}
+
+.python {
+  background-color: orange;
+}
+
+.html {
+  background-color: palevioletred;
+}
+
+.css {
+  background-color: deepskyblue;
+}
+
+.react {
+  background-color: aquamarine;
+}
+
+.swift {
+  background-color: orange;
+}
+
+.cplusplus {
+  background-color: azure;
+}
+
+.javascript {
+  background-color: lightgoldenrodyellow;
+}
+
+.jquery {
+  background-color: lightcyan;
+}
+
+.node {
+  background-color: white;
+}
+
+.express {
+  background-color: #c1fca1;
+}
+
+.mongodb {
+  background-color: #e5e3e3;
+}
+
+.bootstrap {
+  background-color: lavender;
+}
+
+.android-studios {
+  background-color: darkseagreen;
+}
+
+/******************************* Experience *******************************/
+#experience {
+  border-top: 5px solid teal;
+  background-color: azure;
+  padding: 3%;
+  font-family: "Play", sans-serif;
+}
+
+.city-and-date-text {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+/******************************* Portfolio *******************************/
+
+#portfolio {
+  border-top: 5px solid skyblue;
+  background-color: aliceblue;
+  padding: 3%;
+}
+
+.project-img {
+  width: 240px;
+  height: 170px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.project-text {
+  padding: 10px;
+  text-align: center;
+  font-family: "Play", sans-serif;
+}
+
+.project-box {
+  padding: 0px 20px;
+}
+
+/******************************* Contact Me *******************************/
+
+.btn-web-contact {
+  background-color: rgba(247, 247, 249, .6);
+
+  margin-top: 30px;
+  margin-bottom: 5%;
+  margin-right: 0%;
+  margin-left: 0%;
+  width: 80px;
+  height: 80px;
+}
+
+.btn-resume {
+  width: 200px;
+  font-size: 1.9em;
+  color: black;
+  font-weight: thin;
+  padding: 0;
+  margin-top: 50px;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+.contact-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 5%;
+}
+
+/* End of Page */
+
+#end {
+  height: 60px;
+}
+
+#slide-up-icon {
+  margin-top: 50%;
+  background-color: transparent;
+}
+
+#slide-up-icon:hover {
+  cursor: pointer;
+}
+
+.end-text {
+  margin-top: 5%;
+  font-size: 1.5em;
+  font-family: "Play", sans-serif;
+  color: white;
+}
+
+/******************************* Bootstrap 4 Classes *******************************/
+
+.nav-item {
+  font-family: "Play", sans-serif;
+  font-weight: bolder;
+  margin-top: 5px;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.navbar-nav {
+  margin-right: 10px;
+}
+
+.navbar {
+  display: none;
+  height: 65px;
+  background-color: rgba(247, 247, 249, 1);
+  border-bottom: 5px solid lightgrey;
+}
+
+.card {
+  margin: 25px 10px 25px 10px;
+  height: auto;
+  background-color: #eff7f7;
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: #d6e1e6;
+}
+
+.active {
+}
+/******************************* Font Awesome *******************************/
+
+.icon-white {
+  color: white;
+}
+
+/******************************* Helper Classes *******************************/
+.center-element {
+  display: table;
+  margin: auto;
+}
+
+.divider {
+  border-top: 2px solid black;
+  margin: 15px 0px 15px 0px;
+  opacity: .5;
+}
+
+.header-text {
+  color: black;
+  font-weight: lighter;
+  font-size: 2em;
+  font-family: 'Play', sans-serif;
+}
+
+.sub-header-text {
+  font-family: 'Play', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#fade-frameworks > div > span,
+#fade-knowledge > div > span {
+  font-size: 18px;
+}
+
+.sub-header-text-2 {
+  font-family: 'Play', sans-serif;
+  font-size: .7em;
+  font-weight: lighter;
+}
+
+.sub-header-text-3 {
+  font-family: 'Play', sans-serif;
+  font-size: .9em;
+}
+
+.description-text {
+  font-family: 'Play', sans-serif;
+  font-size: 1em;
+  margin: 10px 50px 10px 50px;
+}
+
+.double-space {
+  margin: 10px 0px 10px 0px;
+}
+
+.auto-width-height {
+  width: auto;
+  height: auto;
+  padding: 5px 0px;
+  margin: 5px;
+}
+
+.opacity-zero {
+  opacity: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.parallax {
+  background-image: url(images/background.jpg);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/******************************* Media Queries *******************************/
+
+@media (max-width: 991px) {
+  #dropdown-menu {
+    background-color: rgba(247, 247, 249, .8);
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
