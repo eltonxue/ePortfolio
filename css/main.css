@@ -366,7 +366,6 @@ html {
 
 .parallax {
   background-image: url(images/background.jpg);
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -384,5 +383,11 @@ html {
     font-size: 10px;
     padding-left: 5px;
     padding-right: 5px;
+  }
+}
+
+@media (max-width: 550px) {
+  .parallax {
+    background-image: url(images/background-mobile.jpg);
   }
 }
