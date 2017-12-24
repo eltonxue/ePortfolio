@@ -104,7 +104,8 @@ var main = function() {
       '#portfolio-header',
       '#project-1',
       '#project-2',
-      '#project-3'
+      '#project-3',
+      '#project-4'
     ];
     animateArray(portArray, 1200, 200);
   }
@@ -242,11 +243,15 @@ var main = function() {
   });
 
   $('#project-2').click(function() {
-    window.location.href = 'https://github.com/eltonxue/ePortfolio';
+    window.location.href = 'https://github.com/eltonxue/AceIt';
   });
 
   $('#project-3').click(function() {
-    window.location.href = 'https://github.com/eltonxue/minder';
+    window.location.href = 'https://github.com/eltonxue/Minder';
+  });
+
+  $('#project-4').click(function() {
+    window.location.href = 'https://github.com/eltonxue/ePortfolio';
   });
 };
 

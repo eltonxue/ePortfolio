@@ -159,6 +159,18 @@
   background-color: lavender;
 }
 
+.sass {
+  background-color: #f5dbdd;
+}
+
+.postgres {
+  background-color: #4da7ea;
+}
+
+.sequelize {
+  background-color: #c9f4eb;
+}
+
 .android-studios {
   background-color: darkseagreen;
 }
