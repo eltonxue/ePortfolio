@@ -1,37 +1,51 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+.brand-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #brand-img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
   float: left;
 }
 
 #brand-name {
-  font-family: "Play", sans-serif;
   font-size: 15px;
   margin-top: 10px;
+}
+
+.fa-file-alt {
+  margin-left: 15px;
 }
 
 /******************************* Main Cover Section *******************************/
 
 #profile-pic {
-  border: 3px solid white;
+  border: 1px solid white;
   border-radius: 100%;
   opacity: 0;
   height: 325px;
   width: 325px;
-  background-image: url(images/profile.jpg);
+  background-image: url(../images/profile.jpg);
   background-size: cover;
   background-position: 20% 0%;
 }
 
 #introduction {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   opacity: 0;
   color: white;
   font-size: 3.5em;
-  font-family: 'Play', sans-serif;
-  margin-bottom: 1%;
+  font-family: 'Nunito';
 }
 
 #slide-down-icon {
@@ -45,25 +59,12 @@
 .filler-row {
   margin-top: 2%;
   height: 80px;
-}
-
-.btn-web {
-  font-family: 'Play', sans-serif;
-  opacity: 0;
-  margin-bottom: 15%;
-  color: black;
-  font-size: 23px;
-  font-style: bolder;
-  background-color: rgba(247, 247, 249, .6);
-  width: auto;
-  border: 2px solid white;
-  border-radius: 20px;
+  justify-content: center;
 }
 
 /******************************* Education *******************************/
 
 #education-and-skills {
-  border-top: 5px solid darkgrey;
   background-color: whitesmoke;
   padding: 3%;
 }
@@ -74,7 +75,6 @@
   width: 105px;
   text-align: center;
   border-radius: 50%;
-  font-family: "Play", sans-serif;
   font-weight: lighter;
 }
 
@@ -92,39 +92,37 @@
 
 /******************************* Skills *******************************/
 
-.skill {
-  width: auto;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 5%;
-  padding: 10px;
-  font-weight: 500;
-  font-family: 'Play', sans-serif;
-}
-
 .skill-icon {
   width: 25px;
   height: 25px;
-  margin-right: 4px;
+  margin-right: 6px;
 }
 .java {
   background-color: skyblue;
 }
 
 .python {
-  background-color: orange;
+  background-color: #daf0f3;
 }
 
 .html {
-  background-color: palevioletred;
+  background-color: #f7cecc;
 }
 
 .css {
   background-color: deepskyblue;
 }
 
+.sass {
+  background-color: lightpink;
+}
+
 .react {
   background-color: aquamarine;
+}
+
+.redux {
+  background-color: lavender;
 }
 
 .swift {
@@ -151,8 +149,20 @@
   background-color: #c1fca1;
 }
 
+.dynamodb {
+  background-color: #77beea;
+}
+
+.lambda {
+  background-color: #eee;
+}
+
 .mongodb {
   background-color: #e5e3e3;
+}
+
+.mongoose {
+  background-color: #f0d3d5;
 }
 
 .bootstrap {
@@ -164,7 +174,7 @@
 }
 
 .postgres {
-  background-color: #4da7ea;
+  background-color: #ade0f6;
 }
 
 .sequelize {
@@ -175,12 +185,69 @@
   background-color: darkseagreen;
 }
 
+.apache {
+  background-color: snow;
+}
+
+.mysql {
+  background-color: #d2e8f4;
+}
+
+.django {
+  background-color: lightgreen;
+}
+
+.mocha {
+  background-color: #dcc9a8;
+}
+
+.chai {
+  background-color: #faf5ed;
+}
+
+.socketio {
+  background-color: white;
+}
+
 /******************************* Experience *******************************/
+#view-resume {
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  border: 2px solid white;
+  padding: 15px 25px;
+}
+
+#view-resume:hover {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+#view-resume:hover > #view-resume-text {
+  font-size: 34px;
+}
+
+#view-resume-text {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  color: white;
+  transition: 0.3s;
+}
+
 #experience {
-  border-top: 5px solid teal;
   background-color: azure;
-  padding: 3%;
-  font-family: "Play", sans-serif;
+  padding: 0px;
+  padding-bottom: 40px;
+}
+
+#experience-header {
+  margin-top: 40px;
 }
 
 .city-and-date-text {
@@ -191,9 +258,9 @@
 /******************************* Portfolio *******************************/
 
 #portfolio {
-  border-top: 5px solid skyblue;
   background-color: aliceblue;
   padding: 3%;
+  padding-bottom: 0px;
 }
 
 .project-img {
@@ -203,46 +270,167 @@
   padding-bottom: 15px;
 }
 
-.project-text {
-  padding: 10px;
-  text-align: center;
-  font-family: "Play", sans-serif;
-}
-
 .project-box {
   padding: 0px 20px;
 }
 
-/******************************* Contact Me *******************************/
-
-.btn-web-contact {
-  background-color: rgba(247, 247, 249, .6);
-
-  margin-top: 30px;
-  margin-bottom: 5%;
-  margin-right: 0%;
-  margin-left: 0%;
-  width: 80px;
-  height: 80px;
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
-.btn-resume {
+.project-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgrey;
+  width: 1200px;
+  margin: 30px 0px;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0px 1px 3px lightgrey;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  box-shadow: 0px 2px 5px grey;
+}
+
+.project-images {
+  height: 450px;
+  width: 70%;
+  box-shadow: 0px 5px 8px lightgrey;
+}
+
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+}
+
+.project-carousel-image {
+  width: 100% !important;
+  height: 450px;
+}
+
+.project-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  padding-left: 50px;
+}
+
+.project-title {
+}
+
+.project-text {
+  color: #78777d;
+}
+
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  padding: 7px 10px;
+  font-weight: 500;
+  margin: 5px 10px 5px 0px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.project-redirect {
+  display: flex;
+  align-items: center;
   width: 200px;
-  font-size: 1.9em;
-  color: black;
-  font-weight: thin;
-  padding: 0;
-  margin-top: 50px;
+  padding: 5px;
+  margin-top: 20px;
+  transition: 0.3s;
+  border-radius: 5px;
 }
 
-button:focus {
-  outline: 0 !important;
+.project-redirect:hover {
+  cursor: pointer;
+  color: #317cf6;
 }
 
-.contact-logo {
-  width: 40px;
-  height: 40px;
-  border-radius: 5%;
+.project-redirect-icon {
+  margin-left: 10px;
+  width: 32px;
+  height: 32px;
+}
+
+.fa-arrow-right {
+  padding-left: 10px;
+}
+
+/******************************* FOOTER *******************************/
+
+#footer {
+  background-color: #333333;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: flex-end;
+}
+#footer-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#footer-left > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+#footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+#footer-right > span {
+  margin: 0px 20px;
+  font-size: 20px;
+}
+
+#intro-contacts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+#intro-contacts > .contact > i {
+  font-size: 40px;
+}
+
+.contact {
+  margin: 0px 20px;
+  transition: 0.3s;
+  color: white;
+}
+
+.contact:hover {
+  color: #317cf6;
+  cursor: pointer;
+}
+
+.contact > i {
+  margin: 0px 10px;
+  font-size: 26px;
+  color: ;
 }
 
 /* End of Page */
@@ -263,29 +451,36 @@ button:focus {
 .end-text {
   margin-top: 5%;
   font-size: 1.5em;
-  font-family: "Play", sans-serif;
   color: white;
 }
 
 /******************************* Bootstrap 4 Classes *******************************/
 
 .nav-item {
-  font-family: "Play", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bolder;
   margin-top: 5px;
   font-size: 20px;
-  margin-right: 5px;
+  margin-right: 25px;
 }
 
 .navbar-nav {
-  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+
+.navbar-brand {
+  padding-bottom: 0px;
+  font-size: 20px;
+  line-height: 16px;
 }
 
 .navbar {
   display: none;
   height: 65px;
   background-color: rgba(247, 247, 249, 1);
-  border-bottom: 5px solid lightgrey;
+  box-shadow: 0 6px 4px -4px #999;
 }
 
 .card {
@@ -318,18 +513,16 @@ button:focus {
 .divider {
   border-top: 2px solid black;
   margin: 15px 0px 15px 0px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .header-text {
   color: black;
   font-weight: lighter;
   font-size: 2em;
-  font-family: 'Play', sans-serif;
 }
 
 .sub-header-text {
-  font-family: 'Play', sans-serif;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -340,24 +533,21 @@ button:focus {
 }
 
 .sub-header-text-2 {
-  font-family: 'Play', sans-serif;
-  font-size: .7em;
+  font-size: 0.7em;
   font-weight: lighter;
 }
 
 .sub-header-text-3 {
-  font-family: 'Play', sans-serif;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 .description-text {
-  font-family: 'Play', sans-serif;
   font-size: 1em;
   margin: 10px 50px 10px 50px;
 }
 
 .double-space {
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0px 5px 0px;
 }
 
 .auto-width-height {
@@ -374,24 +564,39 @@ button:focus {
 body,
 html {
   height: 100%;
+  padding: 0px;
+  margin: 0px;
+
+  background-color: #333333;
 }
 
 .parallax {
-  background-image: url(images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.parallax-resume {
+  background-image: url(../images/computer-1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /******************************* Media Queries *******************************/
 
 @media (max-width: 991px) {
   #dropdown-menu {
-    background-color: rgba(247, 247, 249, .8);
+    background-color: rgba(247, 247, 249, 0.8);
     border-radius: 10px;
     text-align: center;
-    border: 2px solid black;
     font-size: 10px;
     padding-left: 5px;
     padding-right: 5px;
@@ -400,6 +605,6 @@ html {
 
 @media (max-width: 550px) {
   .parallax {
-    background-image: url(images/background-mobile.jpg);
+    background-image: url(../images/background-mobile.jpg);
   }
 }

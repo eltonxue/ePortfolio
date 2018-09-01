@@ -12,53 +12,50 @@
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <link rel="shortcut icon" href="images/personal-logo-trans.png"/>
+    <link rel="shortcut icon" href="images/technologist.png"/>
 
     <meta name="title" content="Elton Xue"/>
 
     <meta name="description" content="Elton Xue's Portfolio"/>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-
-    <script src="jquery-ui/jquery-ui.js"></script>
+    <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
 
     <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
 
   </head>
   <!-- ************************ HOME ************************ -->
 
   <body id="home">
-    <nav class="navbar navbar-light bg-faded navbar-fixed-top">
-      <button class="navbar-toggler hidden-lg-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
-      <img src="images/personal-logo-trans.png" id="brand-img">
-      <a class="navbar-brand" href="#" id="brand-name">ELTON L. XUE</a>
-      <div class="collapse navbar-toggleable-md" id="navbarResponsive">
-
-        <ul class="nav navbar-nav float-xs-right" id="dropdown-menu">
-          <li class="nav-item active" id="nav-home">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item" id="nav-education-and-skills">
-            <a class="nav-link" href="#">Education & Skills</a>
-          </li>
-          <li class="nav-item" id="nav-experience">
-            <a class="nav-link" href="#">Experience</a>
-          </li>
-          <li class="nav-item" id="nav-portfolio">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-        </ul>
+    <!-- <h1 class="navbar" >NAVBAR</h1> -->
+    <nav class="navbar navbar-light bg-faded fixed-top">
+      <div className="brand-img-container">
+        <img src="images/personal-logo-trans.png" id="brand-img">
       </div>
+      <a class="navbar-brand" href="#" id="brand-name">Hi, I'm Elton.</a>
+
+      <ul class="nav navbar-nav float-right" id="dropdown-menu">
+        <li class="nav-item active" id="nav-home">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item" id="nav-education-and-skills">
+          <a class="nav-link" href="#">Education & Skills</a>
+        </li>
+        <li class="nav-item" id="nav-experience">
+          <a class="nav-link" href="#">Experience</a>
+        </li>
+        <li class="nav-item" id="nav-portfolio">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+      </ul>
     </nav>
 
     <div class="jumbotron jumbotron-fluid parallax" style="margin-bottom: 0px">
@@ -73,7 +70,6 @@
               <div class="col-sm-12">
 
                 <div class="center-element" id="introduction">
-                  <img src="images/personal-logo-trans.png" style="width: 55px; height: 55px">
                   Hi, I'm Elton.
                 </div>
               </div>
@@ -81,15 +77,23 @@
           </div>
         </div>
 
-        <div class="row filler-row" style="text-align: center; margin-top: 0px">
-          <p style="color: white;font-family: 'Play', sans-serif;">Copyright © Elton Xue</p>
+        <div class="row" style="justify-content: center; margin-top: 0px">
+          <p style="color: white;">Software Engineer</p>
+        </div>
+
+        <div id="intro-contacts">
+          <span class="contact" id="linkedin"><i class="fab fa-linkedin"></i></span>
+          <span class="contact" id="github"><i class="fab fa-github"></i></span>
+          <span class="contact" id="facebook"><i class="fab fa-facebook-square"></i></span>
+          <span class="contact" id="email"><i class="fas fa-envelope"></i></span>
+
         </div>
 
         <div class="row">
           <div class="col-lg-12">
             <div class="center-element">
               <div id="slide-down-icon">
-                <i class="fa fa-angle-double-down fa-4x icon-white" aria-hidden="true"></i>
+                <i class="fa fa-chevron-down fa-4x icon-white" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -114,7 +118,7 @@
           </div>
         </div>
 
-        <div class="row" style="font-family: 'Play', sans-serif">
+        <div class="row">
           <div class="col-sm-3"></div>
           <div class="col-sm-6 opacity-zero" id="education-details">
             <span class="sub-header-text">University of California, Irvine</span>
@@ -122,9 +126,8 @@
             <ul style="font-size: 1.3em; margin-left: 5%">
               <li>Bachelor of Science (B.S.) in
                 <span style="font-weight: bold">Computer Science</span></li>
-              <li>Minor in Statistics</li>
               <li>
-                <span style="font-style: italic; font-weight: bold">GPA: 3.51</span></li>
+                <span style="font-style: italic; font-weight: bold">GPA: 3.6</span></li>
             </ul>
           </div>
           <div class="col-sm-3"></div>
@@ -149,32 +152,38 @@
 
           <div class="col-sm-4 opacity-zero" id="fade-languages">
             <div class="sub-header-text" style="margin-bottom: 7%">
+              <i class="fas fa-code"></i>
               Development
+
             </div>
             <div class="center-element">
               <div class="row">
-                <div class="col-sm-2 language proficient">
-                  Javascript
+
+                <div class="language proficient">
+                  JavaScript
                 </div>
-                <div class="col-sm-2 language proficient">
-                  Python
+                <div class="language proficient">
+                  ES6
                 </div>
-                <div class="col-sm-2 language proficient">
-                  C++
-                </div>
-                <div class="col-sm-2 language proficient">
+                <div class="language proficient">
                   HTML
                 </div>
-                <div class="col-sm-2 language proficient">
+                <div class="language proficient">
                   CSS
                 </div>
-                <div class="col-sm-2 language proficient">
-                  Node.js
+                <div class="language proficient">
+                  Python
                 </div>
-                <div class="col-sm-2 language proficient">
+                <div class="language proficient">
+                  Ruby
+                </div>
+                <div class="language proficient">
+                  C++
+                </div>
+                <div class="language proficient">
                   Java
                 </div>
-                <div class="col-sm-2 language proficient">
+                <div class="language proficient">
                   Swift
                 </div>
               </div>
@@ -182,26 +191,39 @@
           </div>
           <div class="col-sm-4 sub-header-text-3">
             <div class="row opacity-zero" id="fade-frameworks">
-              <div class="sub-header-text">
+              <div class="sub-header-text col-xl-12" style="margin-bottom: 1%">
+                <i class="fas fa-book"></i>
                 Frameworks/Databases
               </div>
               <div class="col-xl-6" style="margin: 2% 0">
-                <span><img class="skill-icon" src="images/jquery-original.svg">jQuery</span>
+                <span><img class="skill-icon" src="images/nodejs-original.svg">Node.js</span>
               </div>
               <div class="col-xl-6" style="margin: 2% 0">
-                <span><img class="skill-icon" src="images/react-original.svg">ReactJS</span>
+                <span><img class="skill-icon" src="images/react-original.svg">React</span>
               </div>
               <div class="col-xl-6" style="margin: 2% 0">
                 <span><img class="skill-icon" src="images/redux-original.png">Redux</span>
               </div>
               <div class="col-xl-6" style="margin: 2% 0">
-                <span><img class="skill-icon" src="images/express-original.svg">ExpressJS</span>
+                <span><img class="skill-icon" src="images/jquery-original.svg">jQuery</span>
+              </div>
+              <div class="col-xl-6" style="margin: 2% 0">
+                <span><img class="skill-icon" src="images/express-original.svg">Express.js</span>
+              </div>
+              <div class="col-xl-6" style="margin: 2% 0">
+                <span><img class="skill-icon" src="images/rails-original-wordmark.svg">Rails</span>
+              </div>
+              <div class="col-xl-6" style="margin: 2% 0">
+                <span><img class="skill-icon" src="images/postgresql-original.svg">PostgreSQL</span>
+              </div>
+              <div class="col-xl-6" style="margin: 2% 0">
+                <span><img class="skill-icon" src="images/mysql-original.svg">MySQL</span>
               </div>
               <div class="col-xl-6" style="margin: 2% 0">
                 <span><img class="skill-icon" src="images/mongodb-original.svg">MongoDB</span>
               </div>
               <div class="col-xl-6" style="margin: 2% 0">
-                <span><img class="skill-icon" src="images/postgresql-original.svg">PostgresQL</span>
+                <span><img class="skill-icon" src="images/dynamo-db.png">DynamoDB</span>
               </div>
               <div class="col-xl-6" style="margin: 2% 0">
                 <span><img class="skill-icon" src="images/sequelize-original.svg">Sequelize</span>
@@ -209,47 +231,62 @@
               <div class="col-xl-6" style="margin: 2% 0">
                 <span><img class="skill-icon" src="images/bootstrap-plain.svg">Bootstrap</span>
               </div>
-              <div class="col-xl-6" style="margin: 2% 0">
-                <span><img class="skill-icon" src="images/sass-original.svg">SASS</span>
-              </div>
 
             </div>
             <div class="row opacity-zero" id="fade-knowledge">
-              <div class="sub-header-text" style="margin-top: 5%">
+              <div class="sub-header-text col-xl-12" style="margin-top: 5%; margin-bottom: 1%">
+                <i class="fas fa-lightbulb"></i>
                 Knowledge
+              </div>
+              <div class="col-xl-6" style="margin: 2% 0">
+                <span><img class="skill-icon" src="images/check-mark-3-512.gif">AWS SDKs</span>
               </div>
               <div class="col-xl-6" style="margin: 2% 0">
                 <span><img class="skill-icon" src="images/check-mark-3-512.gif">Git + Github</span>
               </div>
               <div class="col-xl-6" style="margin: 2% 0">
-                <span><img class="skill-icon" src="images/check-mark-3-512.gif">Unit Testing</span>
+                <span><img class="skill-icon" src="images/check-mark-3-512.gif">Mocha + Chai</span>
               </div>
               <div class="col-xl-6" style="margin: 2% 0">
                 <span><img class="skill-icon" src="images/check-mark-3-512.gif">RESTful API</span>
               </div>
               <div class="col-xl-6" style="margin: 2% 0">
+                <span><img class="skill-icon" src="images/check-mark-3-512.gif">Agile Development</span>
+              </div>
+              <div class="col-xl-6" style="margin: 2% 0">
                 <span><img class="skill-icon" src="images/check-mark-3-512.gif">Web Sockets</span>
               </div>
               <div class="col-xl-6" style="margin: 2% 0">
-                <span><img class="skill-icon" src="images/check-mark-3-512.gif">ECMAScript 6</span>
+                <span><img class="skill-icon" src="images/check-mark-3-512.gif">VS Code/Atom</span>
               </div>
               <div class="col-xl-6" style="margin: 2% 0">
                 <span><img class="skill-icon" src="images/check-mark-3-512.gif">Postman</span>
               </div>
-              <div class="col-xl-6" style="margin: 2% 0">
-                <span><img class="skill-icon" src="images/check-mark-3-512.gif">Atom</span>
-              </div>
+
             </div>
           </div>
 
           <div class="col-sm-2"></div>
         </div>
+
+
+
       </div>
+
+
+
     </div>
+
 
     <!-- ************************ EXPERIENCE ************************ -->
 
     <div id="experience">
+      <div class="parallax-resume" style="margin-bottom: 0px">
+
+        <div id="view-resume">
+          View My Resume<i class="fas fa-arrow-right"></i>
+        </div>
+      </div>
       <div class="opacity-zero" id="experience-header">
         <div class="row">
           <div class="center-element header-text">
@@ -263,8 +300,8 @@
         </div>
       </div>
 
-      <!-- Job #1 -->
-      <div class="row opacity-zero" id="job-1">
+      <!-- Job #7 -->
+      <div class="row opacity-zero" id="job-7">
         <div class="col-md-2"></div>
         <div class="col-md-8">
           <div class="row">
@@ -272,27 +309,25 @@
               <span class="float-xs-left sub-header-text">Software Engineer Intern.</span>
             </div>
             <div class="col-md-6">
-              <span class="float-xs-right sub-header-text city-and-date-text">Irvine, CA</span>
+              <span class="float-right sub-header-text city-and-date-text">Carpinteria, CA</span>
             </div>
 
           </div>
           <div class="row">
             <div class="col-md-6">
-              <span class="float-xs-left sub-header-text-3">The Portal</span>
+              <span class="float-xs-left sub-header-text-3">Procore Technologies</span>
             </div>
             <div class="col-md-6">
-              <span class="float-xs-right sub-header-text-3 city-and-date-text">October 2017 - Present</span>
+              <span class="float-right sub-header-text-3 city-and-date-text">July 2018 - September 2018</span>
             </div>
           </div>
           <div class="row">
             <ul class="sub-header-text-3 description-text">
-              <li class="double-space">Creating and designing
-                <i>AceIt</i>
-                (see projects below)</li>
-              <li class="double-space">Built
-                <i>Minder</i>
-                (see projects below)</li>
-              <li class="double-space">Shadowing teams of developers working on client projects</li>
+              <li class="double-space">Built CoreOverflow, an internal tool for engineers to ask and answer questions about issues pertaining to Procore development, and deployed it using Apex Up with AWS Lambda & DynamoDB</li>
+              <li class="double-space">Resolved tickets in JIRA and created pull requests in Git concerning frontend UI fixes using React and Redux to fit the company’s CORE design requirements</li>
+              <li class="double-space">Improved software usability by integrating internalization to the budgeting tool</li>
+              <li class="double-space">Minimized loading time for the finance tool by reducing unnecessary calls to Procore’s API</li>
+              <li class="double-space">Practiced agile in 2 week sprints with a team of 7 consisting of a designer, product manager, and other engineers</li>
             </ul>
           </div>
           <div class="row">
@@ -304,9 +339,85 @@
         <div class="col-md-2"></div>
       </div>
 
-      <!-- Job #2 -->
+      <!-- Job #6 -->
+      <div class="row opacity-zero" id="job-6">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-6">
+              <span class="float-xs-left sub-header-text">Software Engineer Intern.</span>
+            </div>
+            <div class="col-md-6">
+              <span class="float-right sub-header-text city-and-date-text">Irvine, CA</span>
+            </div>
 
-      <div class="row opacity-zero" id="job-2">
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <span class="float-xs-left sub-header-text-3">Adigami</span>
+            </div>
+            <div class="col-md-6">
+              <span class="float-right sub-header-text-3 city-and-date-text">April 2018 - June 2018</span>
+            </div>
+          </div>
+          <div class="row">
+            <ul class="sub-header-text-3 description-text">
+              <li class="double-space">Optimized code by writing a parser that better handles data received from the Adigami API, then visualizing that data using the Chart.js API</li>
+              <li class="double-space">Wrote RESTful endpoints in Ruby to retrieve a connection’s metrics from a MySQL database</li>
+              <li class="double-space">Participated in agile development and wrote requirements/sprint reports for pushing features</li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="divider col-md-8" style="border-color: teal"></div>
+            <div class="col-sm-2"></div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+
+      <!-- Job #5 -->
+      <div class="row opacity-zero" id="job-5">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-6">
+              <span class="float-xs-left sub-header-text">Software Engineer Intern.</span>
+            </div>
+            <div class="col-md-6">
+              <span class="float-right sub-header-text city-and-date-text">Irvine, CA</span>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <span class="float-xs-left sub-header-text-3">The Portal</span>
+            </div>
+            <div class="col-md-6">
+              <span class="float-right sub-header-text-3 city-and-date-text">October 2017 - April 2018</span>
+            </div>
+          </div>
+          <div class="row">
+            <ul class="sub-header-text-3 description-text">
+              <li class="double-space">Utilized the AWS SDK package to build securely hashed RESTful routes for sending dynamic emails, handling client documents, and conducting payment requests</li>
+              <li class="double-space">Engineered code in React and deployed the use of Redux and Axios to connect frontend views with backend servers for uploading, previewing, and download documents</li>
+              <li class="double-space">Integrated online payments in Node.js and Express.js using the Stripe API</li>
+              <li class="double-space">Reduced server overhead by eliminating existing N + 1 queries in PostgreSQL</li>
+              <li class="double-space">Conducted QA by testing features on opened Git pull requests</li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="divider col-md-8" style="border-color: teal"></div>
+            <div class="col-sm-2"></div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+
+      <!-- Job #4 -->
+
+      <div class="row opacity-zero" id="job-4">
         <div class="col-md-2"></div>
         <div class="col-md-8">
           <div class="row">
@@ -314,7 +425,7 @@
               <span class="float-xs-left sub-header-text">Programming Instructor.</span>
             </div>
             <div class="col-md-6">
-              <span class="float-xs-right sub-header-text city-and-date-text">San Francisco, CA</span>
+              <span class="float-right sub-header-text city-and-date-text">San Francisco, CA</span>
             </div>
           </div>
           <div class="row">
@@ -322,7 +433,7 @@
               <span class="float-xs-left sub-header-text-3">iD Tech (Internal Drive Technology)</span>
             </div>
             <div class="col-md-6">
-              <span class="float-xs-right sub-header-text-3 city-and-date-text">May 2017 - September 2017</span>
+              <span class="float-right sub-header-text-3 city-and-date-text">May 2017 - September 2017</span>
             </div>
           </div>
           <div class="row">
@@ -351,7 +462,7 @@
               <span class="float-xs-left sub-header-text">Information Technician.</span>
             </div>
             <div class="col-md-6">
-              <span class="float-xs-right sub-header-text city-and-date-text">Irvine, CA</span>
+              <span class="float-right sub-header-text city-and-date-text">Irvine, CA</span>
             </div>
           </div>
           <div class="row">
@@ -359,7 +470,7 @@
               <span class="float-xs-left sub-header-text-3">UC Irvine School of Medicine</span>
             </div>
             <div class="col-md-6">
-              <span class="float-xs-right sub-header-text-3 city-and-date-text">March 2017 - May 2017</span>
+              <span class="float-right sub-header-text-3 city-and-date-text">March 2017 - May 2017</span>
             </div>
           </div>
           <div class="row">
@@ -377,9 +488,9 @@
         <div class="col-md-2"></div>
       </div>
 
-      <!-- Job #4 -->
+      <!-- Job #2 -->
 
-      <div class="row opacity-zero" id="job-4">
+      <div class="row opacity-zero" id="job-2">
         <div class="col-md-2"></div>
         <div class="col-md-8">
           <div class="row">
@@ -387,7 +498,7 @@
               <span class="float-xs-left sub-header-text">Assistant Coordinator.</span>
             </div>
             <div class="col-md-6">
-              <span class="float-xs-right sub-header-text city-and-date-text">Irvine, CA</span>
+              <span class="float-right sub-header-text city-and-date-text">Irvine, CA</span>
             </div>
           </div>
           <div class="row">
@@ -395,7 +506,7 @@
               <span class="float-xs-left sub-header-text-3">UC Irvine School of Medicine</span>
             </div>
             <div class="col-md-6">
-              <span class="float-xs-right sub-header-text-3 city-and-date-text">April 2016 - March 2017</span>
+              <span class="float-right sub-header-text-3 city-and-date-text">April 2016 - March 2017</span>
             </div>
           </div>
           <div class="row">
@@ -415,9 +526,9 @@
         <div class="col-md-2"></div>
       </div>
 
-      <!-- Job #5 -->
+      <!-- Job #1 -->
 
-      <div class="row opacity-zero" id="job-5">
+      <div class="row opacity-zero" id="job-1">
         <div class="col-md-2"></div>
         <div class="col-md-8">
           <div class="row">
@@ -425,7 +536,7 @@
               <span class="float-xs-left sub-header-text">Web Development Intern.</span>
             </div>
             <div class="col-md-6">
-              <span class="float-xs-right sub-header-text city-and-date-text">Irvine, CA</span>
+              <span class="float-right sub-header-text city-and-date-text">Irvine, CA</span>
             </div>
           </div>
           <div class="row">
@@ -433,7 +544,7 @@
               <span class="float-xs-left sub-header-text-3">UC Irvine Circle K International</span>
             </div>
             <div class="col-md-6">
-              <span class="float-xs-right sub-header-text-3 city-and-date-text">April 2016 - December 2016</span>
+              <span class="float-right sub-header-text-3 city-and-date-text">April 2016 - December 2016</span>
             </div>
           </div>
           <div class="row">
@@ -446,6 +557,10 @@
         </div>
         <div class="col-md-2"></div>
       </div>
+
+
+
+
     </div>
     <!-- ************************ PORTFOLIO ************************ -->
     <div id="portfolio">
@@ -461,249 +576,396 @@
           <div class="col-sm-1"></div>
         </div>
       </div>
-      <div class="row center-element">
-        <div class="row center-element">
-          <div class="col-lg-3 opacity-zero" id="project-1">
-            <div class="card" style="width: 18rem">
-              <img class="card-img-top center-element project-img" src="images/toobular.jpg" alt="Card image cap">
-              <div class="project-box">
-                <h4 class="sub-header-text center-element">Toobular</h4>
-                <p class="center-element project-text">Interactive website that utilizes the public YouTube API to simulate video hosting.</p>
+
+      <div class="projects-container">
+
+        <div class="project-card" id="project-7">
+
+
+          <div id="carousel-1" class="carousel slide project-images" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="project-carousel-image" src="images/coreoverflow-1.jpg" alt="First slide">
               </div>
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="react skill"><img class="skill-icon" src="images/react-original.svg">ReactJS</span>
-                  <span class="html skill"><img class="skill-icon" src="images/html5-original.svg">HTML</span>
-                </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/coreoverflow-2.jpg" alt="Second slide">
               </div>
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="bootstrap skill"><img class="skill-icon" src="images/bootstrap-plain.svg">Bootstrap</span>
-                  <span class="css skill"><img class="skill-icon" src="images/css3-original.svg">CSS</span>
-                </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/coreoverflow-3.jpg" alt="Third slide">
               </div>
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="javascript skill"><img class="skill-icon" src="images/javascript-original.svg">Javascript</span>
-                </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/coreoverflow-4.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/coreoverflow-5.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/coreoverflow-6.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/coreoverflow-7.jpg" alt="Third slide">
               </div>
             </div>
+            <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-          <div class="col-lg-3 opacity-zero" id="project-3">
-            <div class="card" style="width: 18rem">
-              <img class="card-img-top center-element project-img" src="images/minder.png" alt="Card image cap">
-              <div class="project-box">
-                <h4 class="sub-header-text center-element">Minder</h4>
 
-                <p class="center-element project-text">Social media platform website dedicated to connecting mentors and mentees.</p>
+          <div class="project-info">
+            <h4 class="project-title">CoreOverflow</h4>
+            <p class="project-text">Internal tool for engineers to ask and answer questions about issues pertaining to Procore development.</p>
 
-              </div>
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="html skill"><img class="skill-icon" src="images/html5-original.svg">HTML</span>
-                  <span class="css skill"><img class="skill-icon" src="images/css3-original.svg">CSS</span>
-                </div>
-              </div>
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="javascript skill"><img class="skill-icon" src="images/javascript-original.svg">Javascript</span>
-                  <span class="jquery skill"><img class="skill-icon" src="images/jquery-original.svg">jQuery</span>
-                </div>
-              </div>
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="node skill"><img class="skill-icon" src="images/nodejs-original.svg">Node.js</span>
-                  <span class="express skill"><img class="skill-icon" src="images/express-original.svg">ExpressJS</span>
-                </div>
-              </div>
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="mongodb skill"><img class="skill-icon" src="images/mongodb-original.svg">MongoDB</span>
-                </div>
-              </div>
+            <div class="project-skills">
+
+
+              <span class="react skill"><img class="skill-icon" src="images/react-original.svg">React</span>
+              <span class="redux skill"><img class="skill-icon" src="images/redux-original.png">Redux (thunk)</span>
+              <span class="node skill"><img class="skill-icon" src="images/nodejs-original.svg">Node.js</span>
+              <span class="express skill"><img class="skill-icon" src="images/express-original.svg">Express.js</span>
+              <span class="dynamodb skill"><img class="skill-icon" src="images/dynamo-db.png">DynamoDB</span>
+              <span class="lambda skill"><img class="skill-icon" src="images/lambda-original.svg">Lambda</span>
 
             </div>
-
-          </div>
-
-          <div class="col-lg-3 opacity-zero" id="project-2">
-            <div class="card" style="width: 18rem">
-              <img class="card-img-top center-element project-img" src="images/aceit.jpg" alt="Card image cap">
-
-              <div class="project-box">
-                <h4 class="sub-header-text center-element">AceIt</h4>
-
-                <p class="center-element project-text">Web application that uses speech recognition and tone analytics to help students prepare for interviews.</p>
-
-              </div>
-
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="javascript skill"><img class="skill-icon" src="images/javascript-original.svg">Javascript</span>
-                  <span class="jquery skill"><img class="skill-icon" src="images/jquery-original.svg">jQuery</span>
-                </div>
-              </div>
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="bootstrap skill"><img class="skill-icon" src="images/bootstrap-plain.svg">Bootstrap</span>
-                  <span class="sass skill"><img class="skill-icon" src="images/sass-original.svg">SASS</span>
-                </div>
-              </div>
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="node skill"><img class="skill-icon" src="images/nodejs-original.svg">Node.js</span>
-                  <span class="express skill"><img class="skill-icon" src="images/express-original.svg">ExpressJS</span>
-                </div>
-              </div>
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="postgres skill"><img class="skill-icon" src="images/postgresql-original.svg">PostgresQL</span>
-                  <span class="html skill"><img class="skill-icon" src="images/html5-original.svg">HTML</span>
-                </div>
-              </div>
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="sequelize skill"><img class="skill-icon" src="images/sequelize-original.svg">Sequelize</span>
-                  <span class="css skill"><img class="skill-icon" src="images/css3-original.svg">CSS</span>
-                </div>
-              </div>
-
+            <div class="project-redirect" id="project-redirect-6">
+              View on Github<i class="fas fa-arrow-right"></i>
 
             </div>
 
           </div>
-
-          <div class="col-lg-3 opacity-zero" id="project-4">
-            <div class="card" style="width: 18rem">
-              <img class="card-img-top center-element project-img" src="images/eportfolio.jpg" alt="Card image cap">
-
-              <div class="project-box">
-                <h4 class="sub-header-text center-element">ePortfolio</h4>
-
-                <p class="center-element project-text">Personal website created to showcase my education, skills, experience, and projects.</p>
-
-              </div>
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="html skill"><img class="skill-icon" src="images/html5-original.svg">HTML</span>
-                  <span class="css skill"><img class="skill-icon" src="images/css3-original.svg">CSS</span>
-                </div>
-              </div>
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="bootstrap skill"><img class="skill-icon" src="images/bootstrap-plain.svg">Bootstrap</span>
-                  <span class="jquery skill"><img class="skill-icon" src="images/jquery-original.svg">jQuery</span>
-                </div>
-              </div>
-              <div class="row center-element" style="margin: auto">
-                <div class="auto-width-height">
-                  <span class="javascript skill"><img class="skill-icon" src="images/javascript-original.svg">Javascript</span>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-
         </div>
 
+
+        <div class="project-card" id="project-6">
+          <img class="project-images" src="images/save-1.jpg" />
+
+          <div class="project-info">
+            <h4 class="project-title">Save</h4>
+            <p class="project-text">Cross-platform mobile application for managing budgets and recording finances.</p>
+
+            <div class="project-skills">
+
+              <span class="react skill"><img class="skill-icon" src="images/react-original.svg">React Native</span>
+              <span class="redux skill"><img class="skill-icon" src="images/redux-original.png">Redux (sagas)</span>
+              <span class="node skill"><img class="skill-icon" src="images/nodejs-original.svg">Node.js</span>
+              <span class="express skill"><img class="skill-icon" src="images/express-original.svg">Express.js</span>
+
+              <span class="sequelize skill"><img class="skill-icon" src="images/sequelize-original.svg">Sequelize</span>
+
+              <span class="postgres skill"><img class="skill-icon" src="images/postgresql-original.svg">PostgreSQL</span>
+
+
+            </div>
+
+            <div class="project-redirect" id="project-redirect-7">
+              View on Github<i class="fas fa-arrow-right"></i>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" id="project-5">
+          <div id="carousel-2" class="carousel slide project-images" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="project-carousel-image" src="images/fablix-1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/fablix-2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/fablix-3.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/fablix-4.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/fablix-5.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/fablix-6.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <div class="project-info">
+            <h4 class="project-title">Fablix</h4>
+            <p class="project-text">Interactive website that allows search through a large database of modern movies.</p>
+
+            <div class="project-skills">
+
+
+              <span class="react skill"><img class="skill-icon" src="images/react-original.svg">React</span>
+              <span class="redux skill"><img class="skill-icon" src="images/redux-original.png">Redux (sagas)</span>
+              <span class="apache skill"><img class="skill-icon" src="images/apache-original.svg">Apache Tomcat</span>
+              <span class="mysql skill"><img class="skill-icon" src="images/mysql-original.svg">MySQL</span>
+
+            </div>
+
+            <div class="project-redirect" id="project-redirect-5">
+              View on Github<i class="fas fa-arrow-right"></i>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="project-card" id="project-3">
+
+
+          <div id="carousel-3" class="carousel slide project-images" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="project-carousel-image" src="images/aceit.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/aceit-1.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/aceit-2.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/aceit-3.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/aceit-4.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/aceit-5.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/aceit-6.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/aceit-7.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-3" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-3" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <div class="project-info">
+            <h4 class="project-title">AceIt</h4>
+            <p class="project-text">Web application that uses speech recognition and tone analytics from the IBM Watson API to help students prepare for interviews.</p>
+
+            <div class="project-skills">
+
+
+              <span class="jquery skill"><img class="skill-icon" src="images/jquery-original.svg">jQuery</span>
+              <span class="html skill"><img class="skill-icon" src="images/html5-original.svg">HTML</span>
+              <span class="css skill"><img class="skill-icon" src="images/css3-original.svg">CSS</span>
+              <span class="sass skill"><img class="skill-icon" src="images/sass-original.svg">SASS</span>
+              <span class="node skill"><img class="skill-icon" src="images/nodejs-original.svg">Node.js</span>
+              <span class="express skill"><img class="skill-icon" src="images/express-original.svg">Express.js</span>
+              <span class="sequelize skill"><img class="skill-icon" src="images/sequelize-original.svg">Sequelize</span>
+              <span class="postgres skill"><img class="skill-icon" src="images/postgresql-original.svg">PostgreSQL</span>
+              <span class="mocha skill"><img class="skill-icon" src="images/mocha-plain.svg">Mocha</span>
+              <span class="chai skill"><img class="skill-icon" src="images/chai-original.png">Chai</span>
+
+
+            </div>
+
+            <div class="project-redirect" id="project-redirect-3">
+              View on Github<i class="fas fa-arrow-right"></i>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" id="project-2">
+          <div id="carousel-4" class="carousel slide project-images" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="project-carousel-image" src="images/minder-1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/minder-2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/minder-3.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/minder-4.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/minder-5.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="project-carousel-image" src="images/minder-6.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-4" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-4" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+
+          <div class="project-info">
+            <h4 class="project-title">Minder</h4>
+            <p class="project-text">Social media website for connecting and chatting with friends.</p>
+
+            <div class="project-skills">
+
+              <span class="jquery skill"><img class="skill-icon" src="images/jquery-original.svg">jQuery</span>
+              <span class="html skill"><img class="skill-icon" src="images/html5-original.svg">HTML</span>
+              <span class="css skill"><img class="skill-icon" src="images/css3-original.svg">CSS</span>
+              <span class="node skill"><img class="skill-icon" src="images/nodejs-original.svg">Node.js</span>
+              <span class="express skill"><img class="skill-icon" src="images/express-original.svg">Express.js</span>
+              <span class="mongodb skill"><img class="skill-icon" src="images/mongodb-original.svg">MongoDB</span>
+              <span class="mongoose skill"><img class="skill-icon" src="images/mongoose-original.png">Mongoose</span>
+              <span class="socketio skill"><img class="skill-icon" src="images/socket-io-original.png">Socket.io</span>
+            </div>
+
+            <div class="project-redirect" id="project-redirect-2">
+              View on Github<i class="fas fa-arrow-right"></i>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" id="project-4">
+          <img class="project-images" src="images/swerve.png" />
+
+          <div class="project-info">
+            <h4 class="project-title">Swerve</h4>
+            <p class="project-text">Search engine that employs information retrieval techniques to retrieve URLs from an inverted index.</p>
+
+            <div class="project-skills">
+
+
+              <span class="javascript skill"><img class="skill-icon" src="images/javascript-original.svg">Javascript</span>
+              <span class="html skill"><img class="skill-icon" src="images/html5-original.svg">HTML</span>
+              <span class="css skill"><img class="skill-icon" src="images/css3-original.svg">CSS</span>
+              <span class="python skill"><img class="skill-icon" src="images/python-original.svg">Python</span>
+              <span class="django skill"><img class="skill-icon" src="images/django-original.svg">Django</span>
+
+
+
+
+            </div>
+
+            <div class="project-redirect" id="project-redirect-4">
+              View on Github<i class="fas fa-arrow-right"></i>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" id="project-1">
+          <img class="project-images" src="images/toobular.jpg" />
+
+          <div class="project-info">
+            <h4 class="project-title">Toobular</h4>
+            <p class="project-text">Web application that utilizes the public YouTube API for video browsing.</p>
+
+            <div class="project-skills">
+
+
+              <span class="react skill"><img class="skill-icon" src="images/react-original.svg">React</span>
+              <span class="bootstrap skill"><img class="skill-icon" src="images/bootstrap-plain.svg">Bootstrap</span>
+
+
+            </div>
+
+            <div class="project-redirect" id="project-redirect-1">
+              View on Github<i class="fas fa-arrow-right"></i>
+
+            </div>
+          </div>
+        </div>
       </div>
 
+      <!-- ************************ FOOTER ************************ -->
+
+
+  </div>
+
+  <div id="footer">
+    <div id="footer-left">
+      <img src="images/technologist.png" />Designed & Built by Elton Xue 2018
     </div>
-    <!-- SKILLS <span class="java skill"><img class="skill-icon" src="images/java-original.svg">Java</span> <span class="python skill"><img class="skill-icon" src="images/python-original.svg">Python</span> <span class="bootstrap skill"><img
-    class="skill-icon" src="images/bootstrap-plain.svg">Bootstrap</span> <span class="jquery skill"><img class="skill-icon" src="images/jquery-original.svg">jQuery</span> <span class="javascript skill"><img class="skill-icon"
-    src="images/javascript-original.svg">Javascript</span> <span class="cplusplus skill"><img class="skill-icon" src="images/cplusplus-original.svg">C++</span> <span class="html skill"><img class="skill-icon" src="images/html5-original.svg">HTML</span>
-    <span class="css skill"><img class="skill-icon" src="images/css3-original.svg">CSS</span> -->
-
-    <!-- ************************ CONTACT ************************ -->
-
-    <div class="parallax" style="padding: 50px;">
-      <div class="row">
-        <div class="center-element header-text" style="color: white">
-          CONTACT ME
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-1"></div>
-        <div class="divider col-md-10" style="border-color: white; margin-top: 10px"></div>
-        <div class="col-sm-1"></div>
-      </div>
-      <div class="row">
-        <div class="col-sm-2 offset-sm-3">
-          <div class="center-element">
-            <button type="button" onclick="window.open('https://www.linkedin.com/in/eltonxue/')" class="btn btn-web btn-web-contact text-xs-center" id="web-nav-linkedin">
-              <img src="images/linked-in-icon.png" class="contact-logo">
-            </button>
-
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="center-element">
-            <button type="button" onclick="window.open('http://www.github.com/eltonxue/')" class="btn btn-web btn-web-contact text-xs-center" id="web-nav-github">
-              <img src="images/github-icon.png" class="contact-logo">
-            </button>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="center-element">
-            <button type="button" onclick="window.location.href='mailto:elxue@uci.edu'" class="btn btn-web btn-web-contact text-xs-center" id="web-nav-email">
-              <img src="images/email-icon.png" class="contact-logo">
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="center-element">
-            <button type="button" onclick="window.open('Elton_Xue_Resume.pdf')" class="btn btn-web btn-web-contact btn-resume text-xs-center" id="web-nav-resume" style="height: 70px">
-
-              <img style="width: 40px; height: 40px" src="images/resume-icon.png">
-              Resume
-
-            </button>
-          </div>
-
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="center-element">
-            <div id="slide-up-icon">
-              <i class="fa fa-angle-double-up fa-4x icon-white" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="center-element">
-            <div class="header-text" style="color: white; font-size: 1.5em">
-              TOP
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <span class="end-text center-element" style="margin-top: 2%">
-            <img src="images/personal-logo-trans.png" style="width: 30px; height: 30px; margin-right: 10px;">
-            © 2016 Elton Long Xue
-          </span>
-        </div>
-      </div>
-
+    <div id="footer-right">
+      <span class="contact" id="linkedin"><i class="fab fa-linkedin"></i>LinkedIn</span>
+      <span class="contact" id="github"><i class="fab fa-github"></i>Github</span>
+      <span class="contact" id="facebook"><i class="fab fa-facebook-square"></i>Facebook</span>
+      <span class="contact" id="email"><i class="fas fa-envelope"></i>Email</span>
     </div>
+  </div>
+
 
     <!-- ************************ END TAG ************************ -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery-ui/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
     <script src="js/main.js"></script>
+
+
 
   </body>
 
